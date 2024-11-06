@@ -85,6 +85,19 @@ public class Main {
         // down casting
         SeniorHighStudent s6 = (SeniorHighStudent) s5;
 
+
+        // inner class
+        Student.InnerClass inner = s1.new InnerClass();
+
+        // inner class override
+        Student s7 = new Student()
+        {
+            public void printGrade1()
+            {
+                System.out.println("override");
+            }
+        };
+        //s7.printGrade1();
     }
 }
 
@@ -219,6 +232,11 @@ class Student
     public static void printGrade2(Student student)   // static constructor will only be called once for class loader
     {
         System.out.println(student.name + ": " + student.grade);
+    }
+
+    class InnerClass  // inner class
+    {
+
     }
 
 }
