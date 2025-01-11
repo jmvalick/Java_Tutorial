@@ -1,4 +1,4 @@
-package org.example;
+package org.example.intro;
 
 class ThreadEx1 implements Runnable
 {

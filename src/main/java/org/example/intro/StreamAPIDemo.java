@@ -1,9 +1,8 @@
-package org.example;
+package org.example.intro;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 public class StreamAPIDemo {
     public static void main(String a[]){

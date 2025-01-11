@@ -1,4 +1,4 @@
-package org.example;
+package org.example.intro;
 
 // interface creates methods without impl
 public interface InterfaceDemo {
